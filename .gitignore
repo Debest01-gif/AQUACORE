@@ -19,3 +19,8 @@ uploads/profile_photos/*
 !uploads/meter_photos/.gitkeep
 !uploads/inspection_photos/.gitkeep
 !uploads/profile_photos/.gitkeep
+
+# Temporary scratch files and test cookies
+scratch/
+*.txt
+

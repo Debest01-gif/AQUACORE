@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Optional Module: Capital Works & Network Expansion Projects
+ * AQUACORE MIS - Optional Module: Capital Works & Network Expansion Projects
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

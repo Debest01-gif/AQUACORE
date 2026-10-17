@@ -1,12 +1,12 @@
--- ============================================================
--- THIWASCO WATER LOSS, METERS & REVENUE PROTECTION SYSTEM
+﻿-- ============================================================
+-- AQUACORE WATER LOSS, METERS & REVENUE PROTECTION SYSTEM
 -- Database Schema v1.0  |  Created: 2026-10-03
 -- ============================================================
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+03:00";
 
-CREATE DATABASE IF NOT EXISTS `thiwasco_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `thiwasco_db`;
+CREATE DATABASE IF NOT EXISTS `AQUACORE_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `AQUACORE_db`;
 
 -- ROLES
 CREATE TABLE `roles` (
@@ -55,7 +55,7 @@ CREATE TABLE `users` (
 
 -- Default admin (password: Admin@2026)
 INSERT INTO `users` (`role_id`,`employee_no`,`full_name`,`email`,`phone`,`username`,`password_hash`) VALUES
-(1,'EMP001','System Administrator','admin@thiwasco.co.ke','+254700000001','admin','$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
+(1,'EMP001','System Administrator','admin@AQUACORE.co.ke','+254700000001','admin','$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
 
 -- AUDIT LOGS
 CREATE TABLE `audit_logs` (
@@ -603,12 +603,12 @@ CREATE TABLE `system_settings` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `system_settings` (`setting_key`,`setting_value`,`setting_group`,`description`) VALUES
-('company_name','Thika Water and Sewerage Company (THIWASCO)','general','Company full name'),
-('company_short_name','THIWASCO','general','Company short name'),
+('company_name','AQUACORE Water Solutions','general','Company full name'),
+('company_short_name','AQUACORE','general','Company short name'),
 ('company_address','P.O. Box 4 - 01000, Thika','general','Company postal address'),
 ('company_phone','+254 67 20010','general','Company phone'),
-('company_email','info@thiwasco.co.ke','general','Company email'),
-('company_website','www.thiwasco.co.ke','general','Company website'),
+('company_email','info@AQUACORE.co.ke','general','Company email'),
+('company_website','www.AQUACORE.co.ke','general','Company website'),
 ('invoice_prefix','INV','billing','Invoice number prefix'),
 ('receipt_prefix','RCP','billing','Receipt number prefix'),
 ('nrw_target_percent','20','nrw','NRW target percentage (WASREB target)'),

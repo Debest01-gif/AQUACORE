@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /**
- * THIWASCO - Database Installer
+ * AQUACORE - Database Installer
  * Run this once to set up the database via browser
- * Access: http://localhost/THIWASCO/install.php
+ * Access: http://localhost/AQUACORE/install.php
  */
 
 // Load unified config (sets DB_* constants from environment)
@@ -23,7 +23,7 @@ if (isset($_POST['install'])) {
         $messages[] = "✅ Database <strong>" . DB_NAME . "</strong> created successfully.";
 
         // Step 2: Run SQL file
-        $sql = file_get_contents(__DIR__ . '/database/thiwasco.sql');
+        $sql = file_get_contents(__DIR__ . '/database/AQUACORE.sql');
 
         // Remove CREATE DATABASE and USE statements (already done)
         $sql = preg_replace('/^CREATE\s+DATABASE.*?;/im', '', $sql);
@@ -53,7 +53,7 @@ if (isset($_POST['install'])) {
         // Create .htaccess for uploads
         file_put_contents(__DIR__ . '/uploads/.htaccess', "Options -Indexes\n");
 
-        $messages[] = "🎉 <strong>Installation complete!</strong> THIWASCO is ready.";
+        $messages[] = "🎉 <strong>Installation complete!</strong> AQUACORE is ready.";
         $success = true;
 
     } catch (PDOException $e) {
@@ -68,7 +68,7 @@ $checks = [
     'PHP Version (≥ 7.4)' => version_compare(PHP_VERSION, '7.4.0', '>='),
     'PDO Extension'        => extension_loaded('pdo'),
     'PDO MySQL Extension'  => extension_loaded('pdo_mysql'),
-    'SQL File Exists'      => file_exists(__DIR__ . '/database/thiwasco.sql'),
+    'SQL File Exists'      => file_exists(__DIR__ . '/database/AQUACORE.sql'),
     'Uploads Writable'     => is_writable(__DIR__),
 ];
 
@@ -79,7 +79,7 @@ $allChecksPassed = !in_array(false, $checks);
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>THIWASCO — System Installer</title>
+  <title>AQUACORE — System Installer</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
@@ -107,7 +107,7 @@ $allChecksPassed = !in_array(false, $checks);
 <div class="installer">
   <div class="installer-header">
     <div style="font-size:2.5rem;margin-bottom:12px;">💧</div>
-    <h1>THIWASCO Water MIS</h1>
+    <h1>AQUACORE Water MIS</h1>
     <p>System Installer — Version 1.0</p>
   </div>
   <div class="installer-body">
@@ -123,7 +123,7 @@ $allChecksPassed = !in_array(false, $checks);
         Username: <code>admin</code> &nbsp;|&nbsp; Password: <code>password</code>
         <br><em>Change the password immediately after first login.</em>
       </div>
-      <a href="/THIWASCO/login.php" class="go-btn">🚀 Launch THIWASCO MIS →</a>
+      <a href="/AQUACORE/login.php" class="go-btn">🚀 Launch AQUACORE MIS →</a>
 
     <?php elseif (!empty($errors)): ?>
       <?php foreach ($errors as $e): ?>
@@ -159,7 +159,7 @@ $allChecksPassed = !in_array(false, $checks);
       <form method="POST">
         <button type="submit" name="install" class="btn-install" <?= !$allChecksPassed ? 'disabled' : '' ?>>
           <i class="fa-solid fa-database"></i>
-          <?= $allChecksPassed ? 'Install THIWASCO Database' : 'Fix Errors Before Installing' ?>
+          <?= $allChecksPassed ? 'Install AQUACORE Database' : 'Fix Errors Before Installing' ?>
         </button>
       </form>
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * THIWASCO - Database Configuration
+ * AQUACORE - Database Configuration
  */
 
 // Environment / Database Configuration
@@ -11,7 +11,7 @@ $envDbHost = getenv('DB_HOST') ?: ($_ENV['DB_HOST'] ?? 'localhost');
 $envDbPort = getenv('DB_PORT') ?: ($_ENV['DB_PORT'] ?? '3306');
 $envDbUser = getenv('DB_USER') ?: ($_ENV['DB_USER'] ?? 'root');
 $envDbPass = getenv('DB_PASS') !== false ? getenv('DB_PASS') : ($_ENV['DB_PASS'] ?? '');
-$envDbName = getenv('DB_NAME') ?: ($_ENV['DB_NAME'] ?? 'thiwasco_db');
+$envDbName = getenv('DB_NAME') ?: ($_ENV['DB_NAME'] ?? 'AQUACORE_db');
 $envDbCharset = getenv('DB_CHARSET') ?: ($_ENV['DB_CHARSET'] ?? 'utf8mb4');
 
 // Parse DATABASE_URL only when explicitly using MySQL or PostgreSQL (not SQLite)
@@ -39,7 +39,7 @@ if (!defined('DB_NAME')) define('DB_NAME', $envDbName);
 if (!defined('DB_CHARSET')) define('DB_CHARSET', $envDbCharset);
 
 // Application Settings
-if (!defined('APP_NAME')) define('APP_NAME', 'THIWASCO MIS');
+if (!defined('APP_NAME')) define('APP_NAME', 'AQUACORE MIS');
 if (!defined('APP_VERSION')) define('APP_VERSION', '1.0.0');
 if (!defined('APP_TIMEZONE')) define('APP_TIMEZONE', 'Africa/Nairobi');
 
@@ -57,7 +57,9 @@ if (!defined('APP_URL')) {
         
         $scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
         $baseFolder = '';
-        if (stripos($scriptName, '/THIWASCO') === 0) {
+        if (stripos($scriptName, '/AQUACORE') === 0) {
+            $baseFolder = '/AQUACORE';
+        } elseif (stripos($scriptName, '/THIWASCO') === 0) {
             $baseFolder = '/THIWASCO';
         }
         define('APP_URL', $protocol . $host . $baseFolder);
@@ -65,7 +67,7 @@ if (!defined('APP_URL')) {
 }
 
 // Session
-if (!defined('SESSION_NAME')) define('SESSION_NAME', 'THIWASCO_SESSION');
+if (!defined('SESSION_NAME')) define('SESSION_NAME', 'AQUACORE_SESSION');
 if (!defined('SESSION_LIFETIME')) define('SESSION_LIFETIME', 28800); // 8 hours
 
 // File Upload Paths
@@ -105,7 +107,7 @@ class Database {
             PDO::ATTR_TIMEOUT            => 2,
         ];
 
-        $sqliteFile = __DIR__ . '/../database/thiwasco.sqlite';
+        $sqliteFile = __DIR__ . '/../database/AQUACORE.sqlite';
 
         // Check if explicitly sqlite or if we should try MySQL first
         if (DB_CONNECTION === 'sqlite') {

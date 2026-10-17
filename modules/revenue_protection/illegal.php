@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Illegal Connections & Anti-Theft Enforcement
+ * AQUACORE MIS - Illegal Connections & Anti-Theft Enforcement
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

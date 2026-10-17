@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Comprehensive Demonstration Sample Data Seeder
+ * AQUACORE MIS - Comprehensive Demonstration Sample Data Seeder
  * Run once to populate realistic production-grade data for all modules
  */
 require_once __DIR__ . '/../includes/config.php';
@@ -9,7 +9,7 @@ try {
     $pdo = Database::getInstance()->getConnection();
     $pdo->beginTransaction();
 
-    echo "Seeding THIWASCO demonstration sample data...\n";
+    echo "Seeding AQUACORE demonstration sample data...\n";
 
     // 1. ZONES & TARIFFS check
     $zones = $pdo->query("SELECT zone_id, zone_code FROM zones ORDER BY zone_id ASC")->fetchAll(PDO::FETCH_KEY_PAIR);

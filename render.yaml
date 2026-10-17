@@ -1,13 +1,13 @@
-services:
+﻿services:
   - type: web
-    name: thiwasco-mis
+    name: AQUACORE-mis
     env: docker
     plan: free
     region: oregon
     dockerfilePath: Dockerfile
     envVars:
       - key: APP_NAME
-        value: "THIWASCO MIS"
+        value: "AQUACORE MIS"
       - key: DB_CONNECTION
         value: "sqlite"
       - key: APP_TIMEZONE

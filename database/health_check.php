@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $pages = [
     'login.php',
     'index.php',
@@ -50,7 +50,7 @@ $pages = [
     'optional/projects/index.php',
 ];
 foreach ($pages as $page) {
-    $url = 'http://localhost/THIWASCO/' . $page;
+    $url = 'http://localhost/AQUACORE/' . $page;
     $ctx = stream_context_create(['http'=>['method'=>'GET','timeout'=>8,'ignore_errors'=>true]]);
     $body = @file_get_contents($url, false, $ctx);
     if ($body === false) {

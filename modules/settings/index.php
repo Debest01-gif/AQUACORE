@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Global System Settings & Optional Modules Configuration
+ * AQUACORE MIS - Global System Settings & Optional Modules Configuration
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';
@@ -81,11 +81,11 @@ include __DIR__ . '/../../includes/header.php';
           <div class="row" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
             <div class="form-group mb-3">
               <label class="form-label">Company Official Name</label>
-              <input type="text" name="company_name" class="form-control" value="<?= htmlspecialchars($currentSettings['company_name'] ?? 'Thika Water and Sewerage Company Limited') ?>" required>
+              <input type="text" name="company_name" class="form-control" value="<?= htmlspecialchars($currentSettings['company_name'] ?? 'AQUACORE Water Solutions Limited') ?>" required>
             </div>
             <div class="form-group mb-3">
               <label class="form-label">Short Acronym</label>
-              <input type="text" name="company_short" class="form-control" value="<?= htmlspecialchars($currentSettings['company_short'] ?? 'THIWASCO') ?>" required>
+              <input type="text" name="company_short" class="form-control" value="<?= htmlspecialchars($currentSettings['company_short'] ?? 'AQUACORE') ?>" required>
             </div>
           </div>
 
@@ -96,7 +96,7 @@ include __DIR__ . '/../../includes/header.php';
             </div>
             <div class="form-group mb-3">
               <label class="form-label">Corporate Email</label>
-              <input type="email" name="company_email" class="form-control" value="<?= htmlspecialchars($currentSettings['company_email'] ?? 'info@thiwasco.co.ke') ?>">
+              <input type="email" name="company_email" class="form-control" value="<?= htmlspecialchars($currentSettings['company_email'] ?? 'info@AQUACORE.co.ke') ?>">
             </div>
           </div>
 

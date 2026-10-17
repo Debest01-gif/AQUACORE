@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Invoices List & Management
+ * AQUACORE MIS - Invoices List & Management
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

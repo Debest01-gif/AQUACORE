@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Printable Customer Water Bill / Invoice
+ * AQUACORE MIS - Printable Customer Water Bill / Invoice
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';
@@ -84,11 +84,11 @@ include __DIR__ . '/../../includes/header.php';
           <i class="fa-solid fa-droplet"></i>
         </div>
         <div>
-          <h2 style="font-size:1.4rem; font-weight:800; color:#ffffff; margin:0; letter-spacing:0.5px;">THIKA WATER & SEWERAGE CO. LTD</h2>
-          <div style="color:var(--gold); font-size:0.85rem; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-top:2px;">(THIWASCO)</div>
+          <h2 style="font-size:1.4rem; font-weight:800; color:#ffffff; margin:0; letter-spacing:0.5px;">AQUACORE WATER SOLUTIONS LTD</h2>
+          <div style="color:var(--gold); font-size:0.85rem; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-top:2px;">(AQUACORE)</div>
           <div style="font-size:0.8rem; opacity:0.85; margin-top:4px;">
             P.O. Box 6103 - 01000, Thika, Kenya | Tel: +254 720 123 456<br>
-            Email: info@thiwasco.co.ke | Website: www.thiwasco.co.ke
+            Email: info@AQUACORE.co.ke | Website: www.AQUACORE.co.ke
           </div>
         </div>
       </div>

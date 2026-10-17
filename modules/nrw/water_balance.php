@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - IWA Standard Water Balance & Loss Accounting
+ * AQUACORE MIS - IWA Standard Water Balance & Loss Accounting
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Aging Debt & Defaulters Ledger Report
+ * AQUACORE MIS - Aging Debt & Defaulters Ledger Report
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

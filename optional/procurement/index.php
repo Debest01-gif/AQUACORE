@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Optional Module: Procurement & Supply Chain
+ * AQUACORE MIS - Optional Module: Procurement & Supply Chain
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

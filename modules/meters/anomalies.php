@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Meter Reading Anomalies Review & Action
+ * AQUACORE MIS - Meter Reading Anomalies Review & Action
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

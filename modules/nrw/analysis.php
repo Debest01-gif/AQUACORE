@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Water Loss (NRW) Deep-Dive Analysis
+ * AQUACORE MIS - Water Loss (NRW) Deep-Dive Analysis
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

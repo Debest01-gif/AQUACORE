@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - System Users & Access Control
+ * AQUACORE MIS - System Users & Access Control
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';
@@ -294,7 +294,7 @@ include __DIR__ . '/../../includes/header.php';
           </div>
           <div class="form-group mb-3">
             <label class="form-label">Email</label>
-            <input type="email" name="email" class="form-control" placeholder="staff@thiwasco.co.ke">
+            <input type="email" name="email" class="form-control" placeholder="staff@AQUACORE.co.ke">
           </div>
         </div>
         <div class="form-group mb-3">

@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Field Inspections & Revenue Protection Audits
+ * AQUACORE MIS - Field Inspections & Revenue Protection Audits
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

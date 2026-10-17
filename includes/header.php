@@ -1,6 +1,6 @@
 <?php
 /**
- * THIWASCO - Header / Layout Template
+ * AQUACORE - Header / Layout Template
  * Include at top of every authenticated page
  *
  * Variables available to set before including:
@@ -12,8 +12,8 @@ require_once __DIR__ . '/auth.php';
 Auth::check();
 
 $user = Auth::user();
-$companyName  = getSetting('company_name', 'THIWASCO');
-$companyShort = getSetting('company_short_name', 'THIWASCO');
+$companyName  = getSetting('company_name', 'AQUACORE');
+$companyShort = getSetting('company_short_name', 'AQUACORE');
 $modulesRaw   = getSetting('modules_enabled', 'stores,procurement,assets,projects');
 if (is_string($modulesRaw)) {
     $decoded = json_decode($modulesRaw, true);
@@ -45,7 +45,7 @@ try {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="THIWASCO Water Management Information System - Water Loss, Meters & Revenue Protection">
+  <meta name="description" content="AQUACORE Water Management Information System - Water Loss, Meters & Revenue Protection">
   <title><?= htmlspecialchars($pageTitle) ?> | <?= $companyShort ?> MIS</title>
 
   <!-- Fonts & Icons -->

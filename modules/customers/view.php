@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Customer 360 Account Statement & Profile
+ * AQUACORE MIS - Customer 360 Account Statement & Profile
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

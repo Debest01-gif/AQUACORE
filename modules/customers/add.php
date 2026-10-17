@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Register New Customer & Meter
+ * AQUACORE MIS - Register New Customer & Meter
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';
@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             $pdo = Database::getInstance()->getConnection();
             $pdo->beginTransaction();
 
-            // Auto-generate Account Number: THIWASCO-ZN001-XXXX
+            // Auto-generate Account Number: AQUACORE-ZN001-XXXX
             $selectedZone = db()->fetch("SELECT zone_code FROM zones WHERE zone_id = ?", [$zoneId]);
             $zCode = $selectedZone ? $selectedZone['zone_code'] : 'ZN-001';
             

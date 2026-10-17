@@ -1,6 +1,6 @@
-# 💧 THIWASCO Management Information System (MIS)
+﻿# 💧 AQUACORE Management Information System (MIS)
 
-**THIWASCO MIS** is a enterprise-grade Water Management Information System built for **Thika Water & Sewerage Company (THIWASCO)**. The platform streamlines municipal water distribution, billing operations, revenue protection, non-revenue water (NRW) reduction, infrastructure asset tracking, and staff role management.
+**AQUACORE MIS** is a enterprise-grade Water Management Information System built for **AQUACORE Water Solutions (AQUACORE)**. The platform streamlines municipal water distribution, billing operations, revenue protection, non-revenue water (NRW) reduction, infrastructure asset tracking, and staff role management.
 
 ---
 
@@ -44,7 +44,7 @@
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd THIWASCO
+cd AQUACORE
 
 # Start the built-in server
 php -S localhost:8080
@@ -52,10 +52,10 @@ php -S localhost:8080
 Open your browser at `http://localhost:8080/login.php`.
 
 ### Option B: Using XAMPP / Apache + MySQL
-1. Copy the folder to `c:/xampp/htdocs/THIWASCO`.
+1. Copy the folder to `c:/xampp/htdocs/AQUACORE`.
 2. Start Apache and MySQL in XAMPP Control Panel.
-3. Access `http://localhost/THIWASCO/install.php` to run the database installer or import `database/thiwasco.sql`.
-4. Access `http://localhost/THIWASCO/login.php`.
+3. Access `http://localhost/AQUACORE/install.php` to run the database installer or import `database/AQUACORE.sql`.
+4. Access `http://localhost/AQUACORE/login.php`.
 
 ---
 
@@ -65,7 +65,7 @@ Open your browser at `http://localhost:8080/login.php`.
 ```bash
 git init
 git add .
-git commit -m "Initial commit of THIWASCO Water MIS"
+git commit -m "Initial commit of AQUACORE Water MIS"
 git branch -M main
 git remote add origin https://github.com/<your-username>/<your-repo-name>.git
 git push -u origin main
@@ -80,7 +80,7 @@ git push -u origin main
    - **Plan**: `Free`
    - **Region**: `Oregon` (or closest to you)
 5. Under **Environment Variables**, add:
-   - `APP_NAME` = `THIWASCO MIS`
+   - `APP_NAME` = `AQUACORE MIS`
    - `DB_CONNECTION` = `sqlite`
 6. Click **Create Web Service**.
 
@@ -89,4 +89,4 @@ Render will automatically build the Docker container and deploy the application 
 ---
 
 ## 📄 License & Ownership
-Copyright © 2026 Thika Water & Sewerage Company (THIWASCO). All Rights Reserved.
+Copyright © 2026 AQUACORE Water Solutions (AQUACORE). All Rights Reserved.

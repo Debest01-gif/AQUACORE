@@ -1,6 +1,6 @@
 ﻿<?php
 /**
- * THIWASCO MIS - Assets: Maintenance Records Log
+ * AQUACORE MIS - Assets: Maintenance Records Log
  */
 require_once __DIR__ . "/../../includes/config.php";
 require_once __DIR__ . "/../../includes/auth.php";

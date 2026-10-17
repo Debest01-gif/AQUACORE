@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Payments History & Receipts Register
+ * AQUACORE MIS - Payments History & Receipts Register
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';
@@ -329,8 +329,8 @@ include __DIR__ . '/../../includes/header.php';
     </div>
     <div class="modal-body" id="receiptPrintArea" style="font-family:monospace;padding:1.5rem;background:#fff;">
       <div style="text-align:center;border-bottom:1px dashed #000;padding-bottom:1rem;margin-bottom:1rem;">
-        <h4 style="margin:0;font-weight:800;font-size:1.1rem;">THIKA WATER & SEWERAGE CO.</h4>
-        <div style="font-size:0.8rem;">THIWASCO LTD</div>
+        <h4 style="margin:0;font-weight:800;font-size:1.1rem;">AQUACORE WATER SOLUTIONS</h4>
+        <div style="font-size:0.8rem;">AQUACORE LTD</div>
         <div style="font-size:0.75rem;">P.O. Box 6103 - 01000, Thika</div>
         <div style="font-size:0.75rem;">Tel: +254 720 123 456</div>
         <div style="margin-top:0.5rem;font-weight:700;font-size:0.95rem;text-transform:uppercase;">OFFICIAL PAYMENT RECEIPT</div>

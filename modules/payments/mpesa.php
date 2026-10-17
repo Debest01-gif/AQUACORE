@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - M-Pesa Paybill C2B Simulator & Statement Reconciler
+ * AQUACORE MIS - M-Pesa Paybill C2B Simulator & Statement Reconciler
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';
@@ -202,7 +202,7 @@ include __DIR__ . '/../../includes/header.php';
         <div class="row" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
           <div class="form-group mb-3">
             <label class="form-label">Account No (Bill Reference) <span class="text-danger">*</span></label>
-            <input type="text" name="account_ref" class="form-control" placeholder="e.g. THIWASCO-ZN001-0001" required>
+            <input type="text" name="account_ref" class="form-control" placeholder="e.g. AQUACORE-ZN001-0001" required>
             <small class="text-muted">Customer enters this on Lipa na M-Pesa</small>
           </div>
           <div class="form-group mb-3">

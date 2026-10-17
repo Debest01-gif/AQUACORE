@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Executive Management Summary Report
+ * AQUACORE MIS - Executive Management Summary Report
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';
@@ -96,7 +96,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="printable-report">
   
   <div class="print-header" style="text-align:center;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:2px solid var(--navy);">
-    <h2 style="color:var(--navy);font-weight:800;margin:0;">THIKA WATER & SEWERAGE COMPANY LTD</h2>
+    <h2 style="color:var(--navy);font-weight:800;margin:0;">AQUACORE WATER SOLUTIONS LTD</h2>
     <div style="color:var(--gold);font-weight:700;font-size:1.1rem;text-transform:uppercase;margin-top:2px;">EXECUTIVE PERFORMANCE REPORT &mdash; YEAR <?= htmlspecialchars($year) ?></div>
     <div style="font-size:0.85rem;color:var(--text-muted);margin-top:4px;">Generated on <?= date('d M Y H:i') ?> | Prepared for Managing Director & Board of Directors</div>
   </div>

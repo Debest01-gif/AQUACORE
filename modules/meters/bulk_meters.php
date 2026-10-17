@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Bulk Meters & DMA Inflow Monitoring
+ * AQUACORE MIS - Bulk Meters & DMA Inflow Monitoring
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

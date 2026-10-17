@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Disconnected Customers & Reconnection Management
+ * AQUACORE MIS - Disconnected Customers & Reconnection Management
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

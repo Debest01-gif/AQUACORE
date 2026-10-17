@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Monthly Billing & Tariff Distribution Report
+ * AQUACORE MIS - Monthly Billing & Tariff Distribution Report
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

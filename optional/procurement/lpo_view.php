@@ -1,6 +1,6 @@
 ﻿<?php
 /**
- * THIWASCO MIS - Procurement: LPO / Purchase Order Detail View
+ * AQUACORE MIS - Procurement: LPO / Purchase Order Detail View
  */
 require_once __DIR__ . "/../../includes/config.php";
 require_once __DIR__ . "/../../includes/auth.php";

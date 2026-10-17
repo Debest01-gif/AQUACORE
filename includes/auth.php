@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO - Authentication & Session Management
+ * AQUACORE - Authentication & Session Management
  */
 
 require_once __DIR__ . '/config.php';

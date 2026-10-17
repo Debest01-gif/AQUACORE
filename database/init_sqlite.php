@@ -1,11 +1,11 @@
 <?php
 /**
- * THIWASCO - Complete SQLite Database Initializer & Seeder
+ * AQUACORE - Complete SQLite Database Initializer & Seeder
  * Converts MySQL schema to SQLite DDL with complete sample data.
  */
 
 function initSqliteDatabase(?PDO $pdo = null) {
-    $sqliteFile = __DIR__ . '/thiwasco.sqlite';
+    $sqliteFile = __DIR__ . '/AQUACORE.sqlite';
     
     if (!$pdo) {
         $pdo = new PDO('sqlite:' . $sqliteFile, null, null, [
@@ -507,7 +507,7 @@ SQL;
 
     // Seed admin user (password: Admin@2026)
     $pdo->exec("INSERT OR IGNORE INTO users (user_id, role_id, employee_no, full_name, email, phone, username, password_hash) VALUES
-        (1, 1, 'EMP001', 'System Administrator', 'admin@thiwasco.co.ke', '+254700000001', 'admin', '\$2y\$12\$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi')
+        (1, 1, 'EMP001', 'System Administrator', 'admin@AQUACORE.co.ke', '+254700000001', 'admin', '\$2y\$12\$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi')
     ");
 
     // Seed payment methods
@@ -553,12 +553,12 @@ SQL;
 
     // Seed system settings
     $settings = [
-        ['company_name', 'Thika Water and Sewerage Company (THIWASCO)', 'general', 'Company full name'],
-        ['company_short_name', 'THIWASCO', 'general', 'Company short name'],
+        ['company_name', 'AQUACORE Water Solutions', 'general', 'Company full name'],
+        ['company_short_name', 'AQUACORE', 'general', 'Company short name'],
         ['company_address', 'P.O. Box 4 - 01000, Thika', 'general', 'Company postal address'],
         ['company_phone', '+254 67 20010', 'general', 'Company phone'],
-        ['company_email', 'info@thiwasco.co.ke', 'general', 'Company email'],
-        ['company_website', 'www.thiwasco.co.ke', 'general', 'Company website'],
+        ['company_email', 'info@AQUACORE.co.ke', 'general', 'Company email'],
+        ['company_website', 'www.AQUACORE.co.ke', 'general', 'Company website'],
         ['invoice_prefix', 'INV', 'billing', 'Invoice number prefix'],
         ['receipt_prefix', 'RCP', 'billing', 'Receipt number prefix'],
         ['nrw_target_percent', '20', 'nrw', 'NRW target percentage (WASREB target)'],

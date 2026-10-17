@@ -1,5 +1,5 @@
-<?php
-// THIWASCO - Executive Dashboard
+﻿<?php
+// AQUACORE - Executive Dashboard
 $pageTitle = 'Executive Dashboard';
 $activePage = 'dashboard';
 

@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * THIWASCO MIS - Non-Revenue Water (NRW) Performance Report
+ * AQUACORE MIS - Non-Revenue Water (NRW) Performance Report
  */
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/auth.php';

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Assets: Maintenance Records Log
  */

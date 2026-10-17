@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Monthly Billing & Tariff Distribution Report
  */

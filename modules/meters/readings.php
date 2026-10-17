@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Meter Readings Entry & Automated Anomaly Detection Engine
  */

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Disconnected Customers & Reconnection Management
  */

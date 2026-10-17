@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Illegal Connections & Anti-Theft Enforcement
  */

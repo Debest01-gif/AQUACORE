@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Water Loss (NRW) Deep-Dive Analysis
  */

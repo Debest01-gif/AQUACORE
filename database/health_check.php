@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $pages = [
     'login.php',
     'index.php',

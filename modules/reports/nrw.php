@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Non-Revenue Water (NRW) Performance Report
  */

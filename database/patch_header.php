@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $file = 'includes/header.php';
 $content = file_get_contents($file);
 

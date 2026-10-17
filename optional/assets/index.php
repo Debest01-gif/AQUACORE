@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Optional Module: Fixed Assets & Infrastructure Management
  */

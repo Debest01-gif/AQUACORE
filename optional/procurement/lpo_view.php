@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Procurement: LPO / Purchase Order Detail View
  */

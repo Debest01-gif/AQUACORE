@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Comprehensive Demonstration Sample Data Seeder
  * Run once to populate realistic production-grade data for all modules

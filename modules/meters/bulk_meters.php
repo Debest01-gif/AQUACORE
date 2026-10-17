@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Bulk Meters & DMA Inflow Monitoring
  */

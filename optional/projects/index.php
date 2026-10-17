@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Optional Module: Capital Works & Network Expansion Projects
  */

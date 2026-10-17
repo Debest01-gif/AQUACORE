@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - M-Pesa Paybill C2B Simulator & Statement Reconciler
  */

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - IWA Standard Water Balance & Loss Accounting
  */

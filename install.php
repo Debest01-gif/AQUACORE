@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE - Database Installer
  * Run this once to set up the database via browser

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AQUACORE MIS - Aging Debt & Defaulters Ledger Report
  */

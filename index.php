@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // AQUACORE - Executive Dashboard
 $pageTitle = 'Executive Dashboard';
 $activePage = 'dashboard';

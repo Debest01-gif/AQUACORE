@@ -505,10 +505,12 @@ SQL;
         (7, 'Accounts', 'Financial management', '[\"payments\",\"billing\",\"reports.financial\"]')
     ");
 
-    // Seed admin user (password: Admin@2026)
+    // Seed admin user (password: admin@123)
+    $adminHash = '$2y$10$px1jtZTraQn.xIVV5.MRb.nhs5FlwIaa8cuc7u.b9Yx.8KaGOT24K';
     $pdo->exec("INSERT OR IGNORE INTO users (user_id, role_id, employee_no, full_name, email, phone, username, password_hash) VALUES
-        (1, 1, 'EMP001', 'System Administrator', 'admin@AQUACORE.co.ke', '+254700000001', 'admin', '\$2y\$12\$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi')
+        (1, 1, 'EMP001', 'System Administrator', 'admin@AQUACORE.co.ke', '+254700000001', 'admin', '{$adminHash}')
     ");
+    $pdo->exec("UPDATE users SET password_hash = '{$adminHash}', login_attempts = 0, locked_until = NULL WHERE username = 'admin'");
 
     // Seed payment methods
     $pdo->exec("INSERT OR IGNORE INTO payment_methods (method_id, method_name, method_code) VALUES

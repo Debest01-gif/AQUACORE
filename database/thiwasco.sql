@@ -1,4 +1,4 @@
-﻿-- ============================================================
+-- ============================================================
 -- AQUACORE WATER LOSS, METERS & REVENUE PROTECTION SYSTEM
 -- Database Schema v1.0  |  Created: 2026-10-03
 -- ============================================================
@@ -53,9 +53,9 @@ CREATE TABLE `users` (
   CONSTRAINT `users_role_fk` FOREIGN KEY (`role_id`) REFERENCES `roles` (`role_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- Default admin (password: Admin@2026)
+-- Default admin (password: admin@123)
 INSERT INTO `users` (`role_id`,`employee_no`,`full_name`,`email`,`phone`,`username`,`password_hash`) VALUES
-(1,'EMP001','System Administrator','admin@AQUACORE.co.ke','+254700000001','admin','$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
+(1,'EMP001','System Administrator','admin@AQUACORE.co.ke','+254700000001','admin','$2y$10$px1jtZTraQn.xIVV5.MRb.nhs5FlwIaa8cuc7u.b9Yx.8KaGOT24K');
 
 -- AUDIT LOGS
 CREATE TABLE `audit_logs` (

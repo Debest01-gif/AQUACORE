@@ -87,8 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div
         style="margin-top:40px;padding:14px 20px;background:rgba(255,255,255,0.06);border-radius:10px;border:1px solid rgba(201,137,10,0.25);text-align:center;position:relative;z-index:1;max-width:340px;">
         <p style="font-size:0.82rem;color:rgba(255,255,255,0.5);margin-bottom:4px;">Licensed To</p>
-        <strong style="color:var(--gold-300);font-family:'Outfit',sans-serif;font-size:0.95rem;">Thika Water &amp;
-          Sewerage Company</strong>
+        <strong style="color:var(--gold-300);font-family:'Outfit',sans-serif;font-size:0.95rem;">AQUACORE Water Solutions</strong>
         <p style="font-size:0.75rem;color:rgba(255,255,255,0.35);margin-top:4px;">WASREB Regulated | Version 1.0 | 2026
         </p>
       </div>
